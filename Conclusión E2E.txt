@@ -1,0 +1,23 @@
+Conclusiones Prueba E2E 
+
+Test realizado: Flujo de compra página https://www.saucedemo.com/
+
+Mediante el test realizado se evidencia los beneficios que nos proporciona el uso de las técnicas BDD, permitiendo plantear un escenario 
+que pueda ser entendible para cualquier persona que necesite ejecutar posteriormente este test.
+
+Se decidió realizar una prueba de las opciones en las que el usuario puede realizar el proceso de compra: 
+•	El primer escenario nos muestra como se realiza la compra agregando productos al carrito desde la página principal. 
+•	El según escenario nos muestra que el usuario puede revisar el detalle de un producto seleccionando la imagen del producto deseado, 
+	redirigiendo la página al detalle de este. En este escenario agregamos el producto desde la página detalle de producto.
+
+Ya que necesitamos para ambas opciones del proceso que el usuario este logueado para realizar la compra. Para este ejercicio se utilizó 
+los beneficios que nos proporciona cucumber, hicimos uso de Background para que paso de login sea reutilizable en ambos escenarios, además
+hicimos uso de Data tables para poder pasar la información del usuario. 
+
+Gracias a esto tenemos el código optimizado, evitando redundancia tanto en código como en los procesos ejecutados. 
+
+Así mismo definimos de manera independiente y clara las interfaces y pasos que forman parte de estos procesos. 
+
+En cuanto al resultado de las pruebas realizadas al happy path del flujo de compras se obtuvo una respuesta satisfactoria, 
+cumpliéndose todas las condiciones necesarias que resultaron en la confirmación que provee la página, lo cual significa que se 
+realizaron ambos procesos de compras exitoso.
